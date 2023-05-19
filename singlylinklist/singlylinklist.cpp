@@ -73,5 +73,8 @@ bool serachNode(int nim, Node* curret, Node* previous) {
 	}
 }
 bool deleteNode(int nim) {
-
+	Node* curret = START;
+	Node* previous = START;
+	if (serachNode(nim, previous, curret) == false)
+		return false;
 }
