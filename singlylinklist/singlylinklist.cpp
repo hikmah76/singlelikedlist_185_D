@@ -82,3 +82,4 @@ bool deleteNode(int nim) {
 		START = curret->next;
 	return true;
 }
+bool 
