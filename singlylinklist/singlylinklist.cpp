@@ -82,4 +82,8 @@ bool deleteNode(int nim) {
 		START = curret->next;
 	return true;
 }
-bool 
+bool listEmpty() {
+	if (listEmpty()) {
+		cout << "List Kosong"
+	}
+}
